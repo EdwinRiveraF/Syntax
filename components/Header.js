@@ -3,11 +3,11 @@ import Subscribe from './Subscribe';
 const Header = () => (
   <header className="header">
     <div className="header__left">
-      <img className="header__logo" src="/static/logo.png" alt="Syntax" />
+      <img className="header__logo" src="/static/logo.png" alt="Mercadeo Digital Para Todos" />
     </div>
     <div className="header__right">
       <div className="title">
-        <h2 className="tagline">A Tasty Treats Podcast for Web Developers.</h2>
+        <h2 className="tagline">My tagline should go here.</h2>
         <a
           target="_blank"
           href="https://docs.google.com/forms/d/e/1FAIpQLSfQlAo1wXHiJMySdU-h8QMtfoz92aMS9eycEHXB6eRCLh8KHA/viewform"
