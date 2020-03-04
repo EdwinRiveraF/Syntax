@@ -11,7 +11,7 @@ export default ({ show, baseURL }) => (
       <meta property="og:audio:secure_url" content={show.url} />
       <meta property="og:audio:type" content="audio/mp3" />
       <meta property="og:type" content="music.song" />
-      <meta property="og:title" content={`${show.title} — MDPT Podcast ${show.displayNumber}`} />
+      <meta property="og:title" content={`${show.title} — Marketing Digital el Podcast ${show.displayNumber}`} />
       <meta
         property="og:description"
         content="My Podcast Dedscription Here"

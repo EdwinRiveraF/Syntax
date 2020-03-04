@@ -17,7 +17,7 @@ export default class Show extends React.Component {
       <div className={`show ${currentPlaying === show.displayNumber ? 'show--playing' : '' } ${currentShow === show.displayNumber ? 'show--active' : '' }
       `}>
         <a className="show__link" href={`/show/${show.displayNumber}/${slug(show.title)}`} onClick={(e) => this.changeURL(e, show)}>
-          <p className="show__displayNumber">Episode {show.displayNumber}</p>
+          <p className="show__displayNumber">Episodio #{show.displayNumber}</p>
           <h3 className="show__title">{show.title}</h3>
         </a>
 

@@ -124,20 +124,20 @@ export default class Player extends React.Component {
             />
           </div>
           <h3 className="player__title">
-            Playing: {show.displayNumber}: {show.title}
+            Escuchando: Ep #{show.displayNumber} | {show.title}
           </h3>
         </div>
 
         <div className="player__section player__section--right">
           <button onClick={this.speed} className="player__speed">
-            <p>FASTNESS</p>
+            <p>VELOCIDAD</p>
             <span className="player__speeddisplay">
               {this.state.playbackRate} &times;{' '}
             </span>
           </button>
 
           <div className="player__volume">
-            <p>LOUDNESS</p>
+            <p>VOLUMEN</p>
             <div className="player__inputs">
               <input
                 onChange={this.volume}
@@ -148,7 +148,7 @@ export default class Player extends React.Component {
                 className="sr-only"
               />
               <label htmlFor="vol10">
-                <span className="sr-only">Volume Level 10/100</span>
+                <span className="sr-only">Nivel de Volumen 10/100</span>
               </label>
               <input
                 onChange={this.volume}
@@ -159,7 +159,7 @@ export default class Player extends React.Component {
                 className="sr-only"
               />
               <label htmlFor="vol20">
-                <span className="sr-only">Volume Level 20/100</span>
+                <span className="sr-only">Nivel de Volumen 20/100</span>
               </label>
               <input
                 onChange={this.volume}
@@ -170,7 +170,7 @@ export default class Player extends React.Component {
                 className="sr-only"
               />
               <label htmlFor="vol30">
-                <span className="sr-only">Volume Level 30/100</span>
+                <span className="sr-only">Nivel de Volumen 30/100</span>
               </label>
               <input
                 onChange={this.volume}
@@ -181,7 +181,7 @@ export default class Player extends React.Component {
                 className="sr-only"
               />
               <label htmlFor="vol40">
-                <span className="sr-only">Volume Level 40/100</span>
+                <span className="sr-only">Nivel de Volumen 40/100</span>
               </label>
               <input
                 onChange={this.volume}
@@ -192,7 +192,7 @@ export default class Player extends React.Component {
                 className="sr-only"
               />
               <label htmlFor="vol50">
-                <span className="sr-only">Volume Level 50/100</span>
+                <span className="sr-only">Nivel de Volumen 50/100</span>
               </label>
               <input
                 onChange={this.volume}
@@ -203,7 +203,7 @@ export default class Player extends React.Component {
                 className="sr-only"
               />
               <label htmlFor="vol60">
-                <span className="sr-only">Volume Level 60/100</span>
+                <span className="sr-only">Nivel de Volumen 60/100</span>
               </label>
               <input
                 onChange={this.volume}
@@ -214,7 +214,7 @@ export default class Player extends React.Component {
                 className="sr-only"
               />
               <label htmlFor="vol70">
-                <span className="sr-only">Volume Level 70/100</span>
+                <span className="sr-only">Nivel de Volumen 70/100</span>
               </label>
               <input
                 onChange={this.volume}
@@ -225,7 +225,7 @@ export default class Player extends React.Component {
                 className="sr-only"
               />
               <label htmlFor="vol80">
-                <span className="sr-only">Volume Level 80/100</span>
+                <span className="sr-only">Nivel de Volumen 80/100</span>
               </label>
               <input
                 onChange={this.volume}
@@ -237,7 +237,7 @@ export default class Player extends React.Component {
                 className="sr-only"
               />
               <label htmlFor="vol90">
-                <span className="sr-only">Volume Level 90/100</span>
+                <span className="sr-only">Nivel de Volumen 90/100</span>
               </label>
               <input
                 onChange={this.volume}
@@ -248,7 +248,7 @@ export default class Player extends React.Component {
                 className="sr-only"
               />
               <label htmlFor="vol100">
-                <span className="sr-only">Volume Level 100/100</span>
+                <span className="sr-only">Nivel de Volumen 100/100</span>
               </label>
             </div>
           </div>
